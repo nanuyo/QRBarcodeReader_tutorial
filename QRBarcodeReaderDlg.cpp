@@ -80,6 +80,9 @@ void CQRBarcodeReaderDlg::OnPaint()
 	}
 	else
 	{
+		//m_matImage = imread("apple.jpg", 1);
+		//CreateBitmapInfo(m_matImage.cols, m_matImage.rows, m_matImage.channels() * 8);
+		//DrawImage();
 		StartCamera();
 		CDialogEx::OnPaint();
 	}
